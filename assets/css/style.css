@@ -78,9 +78,9 @@ html * {
   filter: brightness(40%);
 }
 
-.section-menu {
+/* .section-menu {
   padding-top: 70px;
-}
+} */
 
 .menu-section {
   display: flex;
@@ -90,11 +90,12 @@ html * {
 
 .menu-section-title .title {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 30px;
+  color: #333;
 }
 
 .menu-section-title .desc {
-  font-weight: 500;
+  font-weight: 400;
   color: #616161;
 }
 .menu-section p {
@@ -123,6 +124,38 @@ html * {
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
   margin: auto;
+}
+/* 
+.section-about {
+  padding-top: 70px;
+} */
+.desc .about-section-title .title {
+  font-weight: 900;
+  font-size: 30px;
+  color: #333;
+}
+
+.about-angkringan .logo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.about-angkringan .logo img {
+  margin: 10px auto;
+  background-color: #c35721;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.about-angkringan .desc p {
+  font-weight: 400;
+  color: #616161;
+  text-align: justify;
+}
+
+.about-angkringan ul {
+  color: #616161;
 }
 
 footer {
@@ -237,9 +270,9 @@ footer .contact-us a {
     filter: brightness(50%);
   }
 
-  .section-menu {
+  /* .section-menu {
     padding-top: 50px;
-  }
+  } */
 
   .menu-section {
     display: flex;
@@ -262,6 +295,19 @@ footer .contact-us a {
     text-align: center;
     font-weight: 500;
     padding: 10px;
+  }
+
+  .about-angkringan .logo {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .about-angkringan .logo img {
+    margin: 10px auto;
+    background-color: #c35721;
+    border-radius: 10px;
+    max-width: 100%;
   }
 
   footer {
@@ -310,5 +356,18 @@ footer .contact-us a {
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     margin: auto;
+  }
+
+  .about-angkringan .logo {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .about-angkringan .logo img {
+    margin: 10px auto;
+    background-color: #c35721;
+    border-radius: 10px;
+    max-width: 100%;
   }
 }
